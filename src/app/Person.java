@@ -1,3 +1,4 @@
+package app;
 
 public class Person {
     private String name;
@@ -11,11 +12,11 @@ public class Person {
         return name;
     }
 
-    Person(String name) {
+    public Person(String name) {
         this.name = name;
 
     }
-    //  public void showInfo (){
-    //  System.out.println(this.name);
+     public void showInfo (){
+      System.out.println(getName());}
 }
 

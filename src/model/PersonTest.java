@@ -1,3 +1,7 @@
+package model;
+
+import app.Person;
+
 /**
  * Created by Helmut on 2017-03-15.
  */
@@ -7,10 +11,10 @@ public class PersonTest {
         person[0] = new Person("Jan");
         person[1] = new Person("Krzysztof");
         person[2] = new Person("Anna");
-       //person.showInfo(this.name);
 
-        System.out.println(person[0]);
-        System.out.println(person[1]);
-        System.out.println(person[2]);
+        //person.
+        System.out.println(person[0].getName());
+        System.out.println(person[1].getName());
+        System.out.println(person[2].getName());
     }
 }
